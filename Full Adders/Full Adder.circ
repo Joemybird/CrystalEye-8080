@@ -41,7 +41,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Basic Logic\Xor\Xor.circ" name="7"/>
+  <lib desc="file#..\Basic Logic\Xor\Xor.circ" name="7"/>
   <main name="Full Adder (4)"/>
   <options>
     <a name="gateUndefined" val="ignore"/>

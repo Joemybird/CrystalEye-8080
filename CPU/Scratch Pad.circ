@@ -85,7 +85,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Basic Logic\Z Detector\Z Detector.circ" name="7">
+  <lib desc="file#..\Basic Logic\Z Detector\Z Detector.circ" name="7">
     <tool name="Z Detector (1)">
       <a name="facing" val="south"/>
     </tool>
@@ -96,8 +96,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Decoder\4-16 Decoder.circ" name="8"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Full Adders\Full Adder.circ" name="9">
+  <lib desc="file#..\Decoder\4-16 Decoder.circ" name="8"/>
+  <lib desc="file#..\Full Adders\Full Adder.circ" name="9">
     <tool name="Full Adder (1)">
       <a name="facing" val="north"/>
     </tool>
@@ -108,9 +108,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="east"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Memory\Registers\Latch Register.circ" name="10"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Memory\Registers\Register.circ" name="11"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\MUX\8-1 Mux.circ" name="12">
+  <lib desc="file#..\Memory\Registers\Latch Register.circ" name="10"/>
+  <lib desc="file#..\Memory\Registers\Register.circ" name="11"/>
+  <lib desc="file#..\MUX\8-1 Mux.circ" name="12">
     <tool name="8-1 Mux (16)">
       <a name="facing" val="north"/>
     </tool>
@@ -118,8 +118,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Decoder\Decoder.circ" name="13"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\DEMUX\8-1 Demux.circ" name="14">
+  <lib desc="file#..\Decoder\Decoder.circ" name="13"/>
+  <lib desc="file#..\DEMUX\8-1 Demux.circ" name="14">
     <tool name="8-1 Demux (16)">
       <a name="facing" val="south"/>
     </tool>
@@ -127,12 +127,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Basic Logic\Incrementer and decrementer.circ" name="15">
+  <lib desc="file#..\Basic Logic\Incrementer and decrementer.circ" name="15">
     <tool name="Inc/dec (2)">
       <a name="facing" val="south"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Logisim Error Resolution\Error Detect.circ" name="16">
+  <lib desc="file#..\Logisim Error Resolution\Error Detect.circ" name="16">
     <tool name="Error Detector (16)">
       <a name="facing" val="north"/>
     </tool>
@@ -140,7 +140,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Bit Extenders\Bit Extender (8).circ" name="17">
+  <lib desc="file#..\Bit Extenders\Bit Extender (8).circ" name="17">
     <tool name="8 bit extender (16)">
       <a name="facing" val="north"/>
     </tool>

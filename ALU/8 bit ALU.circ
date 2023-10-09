@@ -64,13 +64,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Bit Extenders\1-8 Extender.circ" name="7"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Shifters\8 bit\Left.circ" name="8"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Shifters\8 bit\Right.circ" name="9"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Basic Logic\XNor\XNor.circ" name="10"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Basic Logic\Pairty\8-1 Parity.circ" name="11"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Decoder\4-16 Decoder.circ" name="12"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\MUX\2-1 Mux.circ" name="13">
+  <lib desc="file#..\Bit Extenders\1-8 Extender.circ" name="7"/>
+  <lib desc="file#..\Shifters\8 bit\Left.circ" name="8"/>
+  <lib desc="file#..\Shifters\8 bit\Right.circ" name="9"/>
+  <lib desc="file#..\Basic Logic\XNor\XNor.circ" name="10"/>
+  <lib desc="file#..\Basic Logic\Pairty\8-1 Parity.circ" name="11"/>
+  <lib desc="file#..\Decoder\4-16 Decoder.circ" name="12"/>
+  <lib desc="file#..\MUX\2-1 Mux.circ" name="13">
     <tool name="2-1 Mux (8)">
       <a name="facing" val="south"/>
     </tool>
@@ -78,12 +78,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\MUX\16-1 Mux.circ" name="14">
+  <lib desc="file#..\MUX\16-1 Mux.circ" name="14">
     <tool name="16-1 Mux (8)">
       <a name="facing" val="south"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Full Adders\Full Adder.circ" name="15">
+  <lib desc="file#..\Full Adders\Full Adder.circ" name="15">
     <tool name="Full Adder (1)">
       <a name="facing" val="north"/>
     </tool>
@@ -91,12 +91,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Basic Logic\Xor\Xor.circ" name="16">
+  <lib desc="file#..\Basic Logic\Xor\Xor.circ" name="16">
     <tool name="Xor (8)">
       <a name="facing" val="south"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\MUX\4-1 Mux.circ" name="17"/>
+  <lib desc="file#..\MUX\4-1 Mux.circ" name="17"/>
   <main name="ALU"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
