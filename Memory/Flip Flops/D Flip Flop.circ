@@ -51,14 +51,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Basic Logic\Pulse Detector\Pulse Detect.circ" name="7"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Logisim Error Resolution\Error to Low.circ" name="8"/>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Logisim Error Resolution\Error to High.circ" name="9">
+  <lib desc="file#../..\Basic Logic\Pulse Detector\Pulse Detect.circ" name="7"/>
+  <lib desc="file#../..\Logisim Error Resolution\Error to Low.circ" name="8"/>
+  <lib desc="file#../..\Logisim Error Resolution\Error to High.circ" name="9">
     <tool name="Error to high (1)">
       <a name="facing" val="north"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Joemy\Desktop\UTD Resources\Fall 2022 Courses\CS 4341.003 - Digital Logic\CrystalEye 8080 (Proj)\Logisim Error Resolution\Error Detect.circ" name="10">
+  <lib desc="file#../..\Logisim Error Resolution\Error Detect.circ" name="10">
     <tool name="Error Detector (1)">
       <a name="facing" val="north"/>
     </tool>
