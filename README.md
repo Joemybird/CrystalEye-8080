@@ -1,7 +1,6 @@
 # CrystalEye-8080
-A recreation of the Intel 8080 using logisim
+A recreation of the Intel 8080 using Logisim Evolved
 
-A download of the software originally used can be found here: http://www.cburch.com/logisim/
+Download of Logisim Evolved can be found here: https://github.com/logisim-evolution/
 
-Due to the dated nature of logisim, the project will be transferred to a newer version soon.
-Likely to logisim-evolution found at https://github.com/logisim-evolution/
+Project is currently still uncomplete. Following steps are to wire in the logic for the instructions and to  test the scratch board for any potential errors.
