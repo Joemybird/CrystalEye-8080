@@ -60,7 +60,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   <lib desc="file#..\..\Decoder\4-16 Decoder.circ" name="3"/>
   <lib desc="file#..\..\Memory\Flip Flops\D Flip Flop.circ" name="4"/>
   <lib desc="file#..\..\Basic Logic\Z Detector\Z Detector.circ" name="5">
-    <tool name="Z Detector (1)">
+    <tool name="Z_Detector_1_be9a67f0">
       <a name="facing" val="south"/>
     </tool>
   </lib>
@@ -3593,7 +3593,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1720,750)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="3" loc="(120,570)" name="4-16 Decoder"/>
+    <comp lib="3" loc="(120,570)" name="L_4_16_Decoder_e3544e4c"/>
     <comp lib="1" loc="(1980,900)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
@@ -3649,7 +3649,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="2"/>
     </comp>
     <comp loc="(1610,750)" name="Memory Register Block"/>
-    <comp lib="3" loc="(1170,20)" name="4-16 Decoder">
+    <comp lib="3" loc="(1170,20)" name="L_4_16_Decoder_e3544e4c">
       <a name="facing" val="south"/>
     </comp>
     <comp loc="(2130,850)" name="Memory Register Block"/>
@@ -4049,7 +4049,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(460,450)" to="(460,510)"/>
     <wire from="(460,330)" to="(460,390)"/>
     <wire from="(560,270)" to="(570,270)"/>
-    <comp lib="4" loc="(430,60)" name="D Flip Flop"/>
+    <comp lib="4" loc="(430,60)" name="D_Flip_Flop_5c92dceb"/>
     <comp lib="1" loc="(330,270)" name="Controlled Buffer">
       <a name="width" val="8"/>
     </comp>
@@ -4059,13 +4059,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="pull" val="down"/>
       <a name="label" val="Enable"/>
     </comp>
-    <comp lib="4" loc="(430,300)" name="D Flip Flop"/>
+    <comp lib="4" loc="(430,300)" name="D_Flip_Flop_5c92dceb"/>
     <comp lib="1" loc="(450,520)" name="AND Gate">
       <a name="facing" val="north"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(430,480)" name="D Flip Flop"/>
+    <comp lib="4" loc="(430,480)" name="D_Flip_Flop_5c92dceb"/>
     <comp lib="2" loc="(439,26)" name="Text">
       <a name="text" val="If bit 7 has high impedance, then enable is explicitly disabled"/>
     </comp>
@@ -4082,9 +4082,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Data"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="4" loc="(430,420)" name="D Flip Flop"/>
-    <comp lib="4" loc="(430,240)" name="D Flip Flop"/>
-    <comp lib="4" loc="(430,180)" name="D Flip Flop"/>
+    <comp lib="4" loc="(430,420)" name="D_Flip_Flop_5c92dceb"/>
+    <comp lib="4" loc="(430,240)" name="D_Flip_Flop_5c92dceb"/>
+    <comp lib="4" loc="(430,180)" name="D_Flip_Flop_5c92dceb"/>
     <comp lib="0" loc="(300,270)" name="Pin">
       <a name="width" val="8"/>
       <a name="label" val="In"/>
@@ -4093,11 +4093,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="Clk"/>
     </comp>
-    <comp lib="4" loc="(430,360)" name="D Flip Flop"/>
-    <comp lib="5" loc="(380,490)" name="Z Detector (1)">
+    <comp lib="4" loc="(430,360)" name="D_Flip_Flop_5c92dceb"/>
+    <comp lib="5" loc="(380,490)" name="Z_Detector_1_be9a67f0">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="4" loc="(430,120)" name="D Flip Flop"/>
+    <comp lib="4" loc="(430,120)" name="D_Flip_Flop_5c92dceb"/>
     <comp lib="1" loc="(560,270)" name="Controlled Buffer">
       <a name="width" val="8"/>
     </comp>

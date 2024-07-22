@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.7.1" version="1.0">
-This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
-<lib desc="#Wiring" name="0">
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
     <tool name="Splitter">
-      <a name="facing" val="west"/>
       <a name="appear" val="right"/>
+      <a name="facing" val="west"/>
+    </tool>
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
     </tool>
     <tool name="Pull Resistor">
       <a name="facing" val="north"/>
     </tool>
     <tool name="Constant">
-      <a name="width" val="8"/>
       <a name="value" val="0x0"/>
+      <a name="width" val="8"/>
     </tool>
     <tool name="Power">
       <a name="facing" val="west"/>
@@ -26,33 +30,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </tool>
     <tool name="NOR Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
     </tool>
     <tool name="XOR Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
     </tool>
   </lib>
   <lib desc="#Plexers" name="2"/>
   <lib desc="#Arithmetic" name="3"/>
-  <lib desc="#Memory" name="4">
-    <tool name="ROM">
-      <a name="contents">addr/data: 8 8
-0
-</a>
-    </tool>
-  </lib>
+  <lib desc="#Memory" name="4"/>
   <lib desc="#I/O" name="5"/>
   <lib desc="#Base" name="6">
     <tool name="Text Tool">
-      <a name="text" val=""/>
       <a name="font" val="SansSerif plain 12"/>
-      <a name="halign" val="center"/>
-      <a name="valign" val="base"/>
     </tool>
   </lib>
   <lib desc="file#..\..\Logisim Error Resolution\Error to High.circ" name="7"/>
-  <main name="Equals (1)"/>
+  <main name="Equals_1_4de0c3f0"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -67,163 +60,154 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <tool lib="6" name="Poke Tool"/>
     <tool lib="6" name="Edit Tool"/>
     <tool lib="6" name="Text Tool">
-      <a name="text" val=""/>
       <a name="font" val="SansSerif plain 12"/>
-      <a name="halign" val="center"/>
-      <a name="valign" val="base"/>
     </tool>
     <sep/>
-    <tool lib="0" name="Pin">
-      <a name="tristate" val="false"/>
-    </tool>
+    <tool lib="0" name="Pin"/>
     <tool lib="0" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="label" val="Y"/>
-      <a name="labelloc" val="east"/>
     </tool>
     <tool lib="1" name="NOT Gate">
       <a name="facing" val="south"/>
-      <a name="width" val="4"/>
       <a name="size" val="20"/>
+      <a name="width" val="4"/>
     </tool>
     <tool lib="1" name="AND Gate">
-      <a name="size" val="30"/>
       <a name="inputs" val="8"/>
+      <a name="size" val="30"/>
     </tool>
     <tool lib="1" name="OR Gate">
-      <a name="size" val="30"/>
       <a name="inputs" val="8"/>
+      <a name="size" val="30"/>
     </tool>
   </toolbar>
-  <circuit name="Equals (1)">
-    <a name="circuit" val="Equals (1)"/>
-    <a name="clabel" val=""/>
-    <a name="clabelup" val="east"/>
+  <circuit name="Equals_1_4de0c3f0">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="Equals_1_4de0c3f0"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="simulationFrequency" val="1.0"/>
     <appear>
       <polyline fill="none" points="50,10 50,50 70,30 50,10" stroke="#000000" stroke-width="2"/>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="34">=</text>
-      <circ-port height="8" pin="80,90" width="8" x="46" y="16"/>
-      <circ-port height="8" pin="80,140" width="8" x="46" y="36"/>
-      <circ-port height="10" pin="300,110" width="10" x="65" y="25"/>
-      <circ-anchor facing="east" height="6" width="6" x="67" y="27"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="34">=</text>
+      <circ-anchor facing="east" x="70" y="30"/>
+      <circ-port dir="in" pin="80,140" x="50" y="40"/>
+      <circ-port dir="in" pin="80,90" x="50" y="20"/>
+      <circ-port dir="out" pin="300,110" x="70" y="30"/>
     </appear>
-    <wire from="(120,80)" to="(150,80)"/>
-    <wire from="(190,120)" to="(190,130)"/>
-    <wire from="(190,90)" to="(190,100)"/>
-    <wire from="(130,100)" to="(130,140)"/>
-    <wire from="(120,80)" to="(120,90)"/>
-    <wire from="(120,120)" to="(140,120)"/>
-    <wire from="(250,110)" to="(300,110)"/>
-    <wire from="(130,140)" to="(150,140)"/>
-    <wire from="(80,140)" to="(130,140)"/>
-    <wire from="(180,130)" to="(190,130)"/>
-    <wire from="(180,90)" to="(190,90)"/>
-    <wire from="(190,120)" to="(200,120)"/>
-    <wire from="(190,100)" to="(200,100)"/>
-    <wire from="(130,100)" to="(140,100)"/>
-    <wire from="(80,90)" to="(120,90)"/>
-    <wire from="(120,90)" to="(120,120)"/>
-    <comp lib="7" loc="(240,110)" name="Error to high (1)"/>
+    <comp lib="0" loc="(300,110)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="0" loc="(80,140)" name="Pin">
+      <a name="appearance" val="classic"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="1" loc="(180,90)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
-    </comp>
     <comp lib="0" loc="(80,90)" name="Pin">
+      <a name="appearance" val="classic"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(300,110)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Y"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="1" loc="(180,130)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
       <a name="negate0" val="true"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(180,90)" name="AND Gate">
+      <a name="negate1" val="true"/>
+      <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(240,110)" name="NOR Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
     </comp>
+    <comp lib="7" loc="(240,110)" name="Error_to_high_1_d72b71e8"/>
+    <wire from="(120,120)" to="(140,120)"/>
+    <wire from="(120,80)" to="(120,90)"/>
+    <wire from="(120,80)" to="(150,80)"/>
+    <wire from="(120,90)" to="(120,120)"/>
+    <wire from="(130,100)" to="(130,140)"/>
+    <wire from="(130,100)" to="(140,100)"/>
+    <wire from="(130,140)" to="(150,140)"/>
+    <wire from="(180,130)" to="(190,130)"/>
+    <wire from="(180,90)" to="(190,90)"/>
+    <wire from="(190,100)" to="(200,100)"/>
+    <wire from="(190,120)" to="(190,130)"/>
+    <wire from="(190,120)" to="(200,120)"/>
+    <wire from="(190,90)" to="(190,100)"/>
+    <wire from="(250,110)" to="(300,110)"/>
+    <wire from="(80,140)" to="(130,140)"/>
+    <wire from="(80,90)" to="(120,90)"/>
   </circuit>
-  <circuit name="Equals (8)">
-    <a name="circuit" val="Equals (8)"/>
-    <a name="clabel" val=""/>
-    <a name="clabelup" val="east"/>
+  <circuit name="Equals_8_f6a9e01b">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="Equals_8_f6a9e01b"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="simulationFrequency" val="1.0"/>
     <appear>
       <polyline fill="none" points="50,10 50,50 70,30 50,10" stroke="#000000" stroke-width="2"/>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="34">=</text>
-      <circ-port height="8" pin="90,90" width="8" x="46" y="16"/>
-      <circ-port height="8" pin="90,140" width="8" x="46" y="36"/>
-      <circ-port height="10" pin="340,110" width="10" x="65" y="25"/>
-      <circ-anchor facing="east" height="6" width="6" x="67" y="27"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="34">=</text>
+      <circ-anchor facing="east" x="70" y="30"/>
+      <circ-port dir="in" pin="90,140" x="50" y="40"/>
+      <circ-port dir="in" pin="90,90" x="50" y="20"/>
+      <circ-port dir="out" pin="340,110" x="70" y="30"/>
     </appear>
-    <wire from="(130,140)" to="(160,140)"/>
-    <wire from="(90,90)" to="(120,90)"/>
-    <wire from="(120,120)" to="(150,120)"/>
-    <wire from="(310,110)" to="(340,110)"/>
-    <wire from="(190,120)" to="(190,130)"/>
-    <wire from="(190,90)" to="(190,100)"/>
-    <wire from="(130,100)" to="(130,140)"/>
-    <wire from="(120,80)" to="(120,90)"/>
-    <wire from="(190,100)" to="(210,100)"/>
-    <wire from="(130,100)" to="(150,100)"/>
-    <wire from="(190,120)" to="(210,120)"/>
-    <wire from="(90,140)" to="(130,140)"/>
-    <wire from="(120,80)" to="(160,80)"/>
-    <wire from="(120,90)" to="(120,120)"/>
-    <comp lib="1" loc="(190,130)" name="AND Gate">
-      <a name="width" val="8"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-    </comp>
-    <comp lib="0" loc="(90,140)" name="Pin">
-      <a name="width" val="8"/>
-      <a name="label" val="B"/>
-    </comp>
-    <comp lib="1" loc="(310,110)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
-    </comp>
-    <comp lib="1" loc="(250,110)" name="NOR Gate">
-      <a name="width" val="8"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(90,90)" name="Pin">
-      <a name="width" val="8"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="0" loc="(340,110)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Y"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(190,90)" name="AND Gate">
-      <a name="width" val="8"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="7" loc="(250,110)" name="Error to high (8)"/>
     <comp lib="0" loc="(260,110)" name="Splitter">
-      <a name="fanout" val="9"/>
-      <a name="incoming" val="8"/>
       <a name="appear" val="center"/>
       <a name="bit4" val="5"/>
       <a name="bit5" val="6"/>
       <a name="bit6" val="7"/>
       <a name="bit7" val="8"/>
+      <a name="fanout" val="9"/>
+      <a name="incoming" val="8"/>
     </comp>
+    <comp lib="0" loc="(340,110)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(90,140)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="B"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(90,90)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(190,130)" name="AND Gate">
+      <a name="negate0" val="true"/>
+      <a name="size" val="30"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(190,90)" name="AND Gate">
+      <a name="negate1" val="true"/>
+      <a name="size" val="30"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(250,110)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(310,110)" name="AND Gate">
+      <a name="inputs" val="8"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="7" loc="(250,110)" name="Error_to_high_8_255a56c3"/>
+    <wire from="(120,120)" to="(150,120)"/>
+    <wire from="(120,80)" to="(120,90)"/>
+    <wire from="(120,80)" to="(160,80)"/>
+    <wire from="(120,90)" to="(120,120)"/>
+    <wire from="(130,100)" to="(130,140)"/>
+    <wire from="(130,100)" to="(150,100)"/>
+    <wire from="(130,140)" to="(160,140)"/>
+    <wire from="(190,100)" to="(210,100)"/>
+    <wire from="(190,120)" to="(190,130)"/>
+    <wire from="(190,120)" to="(210,120)"/>
+    <wire from="(190,90)" to="(190,100)"/>
+    <wire from="(310,110)" to="(340,110)"/>
+    <wire from="(90,140)" to="(130,140)"/>
+    <wire from="(90,90)" to="(120,90)"/>
   </circuit>
 </project>
