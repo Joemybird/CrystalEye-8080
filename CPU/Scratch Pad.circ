@@ -4,11 +4,11 @@
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
-      <a name="appear" val="right"/>
-      <a name="facing" val="west"/>
+      <a name="appear" val="center"/>
     </tool>
     <tool name="Pin">
       <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
     </tool>
     <tool name="Probe">
       <a name="appearance" val="classic"/>
@@ -18,14 +18,14 @@
       <a name="facing" val="east"/>
     </tool>
     <tool name="Pull Resistor">
-      <a name="facing" val="north"/>
+      <a name="facing" val="west"/>
     </tool>
     <tool name="Constant">
       <a name="value" val="0x0"/>
       <a name="width" val="8"/>
     </tool>
     <tool name="Power">
-      <a name="facing" val="west"/>
+      <a name="facing" val="south"/>
     </tool>
     <tool name="Ground">
       <a name="facing" val="west"/>
@@ -74,7 +74,20 @@
       <a name="font" val="SansSerif plain 12"/>
     </tool>
   </lib>
-  <lib desc="file#..\Basic Logic\Z Detector\Z Detector.circ" name="7">
+  <lib desc="file#..\MUX\8-1 Mux.circ" name="7">
+    <tool name="Mux_16">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Mux_8">
+      <a name="facing" val="north"/>
+    </tool>
+  </lib>
+  <lib desc="file#..\Bit Extenders\Bit Extender (8).circ" name="8">
+    <tool name="L_8_bit_extender_16_22419d45">
+      <a name="facing" val="east"/>
+    </tool>
+  </lib>
+  <lib desc="file#..\Basic Logic\Z Detector\Z Detector.circ" name="9">
     <tool name="Z_Detector_1_be9a67f0">
       <a name="facing" val="south"/>
     </tool>
@@ -85,42 +98,26 @@
       <a name="facing" val="north"/>
     </tool>
   </lib>
-  <lib desc="file#..\Logisim Error Resolution\Error Detect.circ" name="8">
-    <tool name="Error_Detector_16_c93c636a">
-      <a name="facing" val="north"/>
-    </tool>
-    <tool name="Error_Detector_8_b862b878">
-      <a name="facing" val="north"/>
-    </tool>
-  </lib>
-  <lib desc="file#..\Basic Logic\Incrementer and decrementer.circ" name="9">
-    <tool name="Inc_dec_16_1df549c4">
-      <a name="facing" val="east"/>
-    </tool>
-    <tool name="Inc_dec_8_1e64ec11">
-      <a name="facing" val="east"/>
-    </tool>
-    <tool name="Inc_dec_4_111c7295">
-      <a name="facing" val="east"/>
-    </tool>
-    <tool name="Inc_dec_2_22b879e6">
+  <lib desc="file#..\DEMUX\8-1 Demux.circ" name="10">
+    <tool name="L_8_1_Demux_16_5be8a8cb">
       <a name="facing" val="south"/>
     </tool>
-    <tool name="Inc_dec_1_263ea2b8">
+    <tool name="L_8_1_Demux_8_58d4daa4">
+      <a name="facing" val="south"/>
+    </tool>
+    <tool name="L_8_1_Demux_4_3b2db8e2">
+      <a name="facing" val="east"/>
+    </tool>
+    <tool name="L_8_1_Demux_2_74c68883">
+      <a name="facing" val="east"/>
+    </tool>
+    <tool name="L_8_1_Demux_1_c3500447">
       <a name="facing" val="east"/>
     </tool>
   </lib>
-  <lib desc="file#..\Decoder\Decoder.circ" name="10"/>
-  <lib desc="file#..\MUX\8-1 Mux.circ" name="11">
-    <tool name="Mux_16">
-      <a name="facing" val="north"/>
-    </tool>
-    <tool name="Mux_8">
-      <a name="facing" val="north"/>
-    </tool>
-  </lib>
-  <lib desc="file#..\Memory\Registers\Register.circ" name="12"/>
-  <lib desc="file#..\Memory\Registers\Latch Register.circ" name="13"/>
+  <lib desc="file#..\Decoder\4-16 Decoder.circ" name="11"/>
+  <lib desc="file#..\Memory\Registers\Latch Register.circ" name="12"/>
+  <lib desc="file#..\Memory\Registers\Register.circ" name="13"/>
   <lib desc="file#..\Full Adders\Full Adder.circ" name="14">
     <tool name="Full_Adder_1_5c6d947c">
       <a name="facing" val="north"/>
@@ -138,29 +135,32 @@
       <a name="facing" val="east"/>
     </tool>
   </lib>
-  <lib desc="file#..\Bit Extenders\Bit Extender (8).circ" name="15">
-    <tool name="L_8_bit_extender_16_22419d45">
+  <lib desc="file#..\Decoder\Decoder.circ" name="15"/>
+  <lib desc="file#..\Logisim Error Resolution\Error Detect.circ" name="16">
+    <tool name="Error_Detector_16_c93c636a">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Error_Detector_8_b862b878">
+      <a name="facing" val="north"/>
+    </tool>
+  </lib>
+  <lib desc="file#..\Basic Logic\Incrementer and decrementer.circ" name="17">
+    <tool name="Inc_dec_16_1df549c4">
+      <a name="facing" val="east"/>
+    </tool>
+    <tool name="Inc_dec_8_1e64ec11">
+      <a name="facing" val="east"/>
+    </tool>
+    <tool name="Inc_dec_4_111c7295">
+      <a name="facing" val="east"/>
+    </tool>
+    <tool name="Inc_dec_2_22b879e6">
+      <a name="facing" val="south"/>
+    </tool>
+    <tool name="Inc_dec_1_263ea2b8">
       <a name="facing" val="east"/>
     </tool>
   </lib>
-  <lib desc="file#..\DEMUX\8-1 Demux.circ" name="16">
-    <tool name="L_8_1_Demux_16_5be8a8cb">
-      <a name="facing" val="south"/>
-    </tool>
-    <tool name="L_8_1_Demux_8_58d4daa4">
-      <a name="facing" val="south"/>
-    </tool>
-    <tool name="L_8_1_Demux_4_3b2db8e2">
-      <a name="facing" val="east"/>
-    </tool>
-    <tool name="L_8_1_Demux_2_74c68883">
-      <a name="facing" val="east"/>
-    </tool>
-    <tool name="L_8_1_Demux_1_c3500447">
-      <a name="facing" val="east"/>
-    </tool>
-  </lib>
-  <lib desc="file#..\Decoder\4-16 Decoder.circ" name="17"/>
   <main name="Scratch_Pad_49ad1382"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -373,6 +373,9 @@
       <a name="label" val="Read_16"/>
       <a name="width" val="16"/>
     </comp>
+    <comp lib="0" loc="(200,160)" name="Pull Resistor">
+      <a name="facing" val="west"/>
+    </comp>
     <comp lib="0" loc="(200,300)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="Stack"/>
@@ -390,19 +393,19 @@
     </comp>
     <comp lib="0" loc="(210,190)" name="Splitter">
       <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="none"/>
-      <a name="fanout" val="1"/>
-      <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="0" loc="(210,190)" name="Splitter">
-      <a name="appear" val="center"/>
       <a name="bit0" val="none"/>
       <a name="bit1" val="none"/>
       <a name="bit2" val="none"/>
       <a name="bit3" val="0"/>
       <a name="facing" val="north"/>
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(210,190)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="none"/>
       <a name="fanout" val="1"/>
       <a name="incoming" val="4"/>
     </comp>
@@ -1096,7 +1099,7 @@
       <a name="label" val="Read_8"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(640,320)" name="Tunnel">
+    <comp lib="0" loc="(640,310)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="Write_8"/>
       <a name="width" val="8"/>
@@ -1143,6 +1146,9 @@
       <a name="label" val="Read_8"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="0" loc="(70,150)" name="Pull Resistor">
+      <a name="facing" val="west"/>
+    </comp>
     <comp lib="0" loc="(70,240)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="E"/>
@@ -1183,7 +1189,7 @@
       <a name="label" val="Stack"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="0" loc="(730,780)" name="Tunnel">
+    <comp lib="0" loc="(730,820)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="Write_8"/>
       <a name="width" val="8"/>
@@ -1261,6 +1267,7 @@
     <comp lib="0" loc="(850,40)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="Increment_Decrement"/>
+      <a name="tristate" val="true"/>
     </comp>
     <comp lib="0" loc="(850,70)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -1370,98 +1377,102 @@
       <a name="facing" val="west"/>
       <a name="size" val="20"/>
     </comp>
-    <comp lib="11" loc="(200,180)" name="Mux_16">
+    <comp lib="10" loc="(210,580)" name="L_8_1_Demux_16_5be8a8cb">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="10" loc="(420,80)" name="L_8_1_Demux_8_58d4daa4">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="11" loc="(510,80)" name="Mux_8">
-      <a name="facing" val="north"/>
+    <comp lib="10" loc="(70,580)" name="L_8_1_Demux_8_58d4daa4">
+      <a name="facing" val="south"/>
     </comp>
-    <comp lib="11" loc="(70,180)" name="Mux_8">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="12" loc="(150,800)" name="Register_16_2fb72861"/>
-    <comp lib="12" loc="(400,450)" name="Register_8_252a90b2">
+    <comp lib="13" loc="(150,800)" name="Register_16_2fb72861"/>
+    <comp lib="13" loc="(400,450)" name="Register_8_252a90b2">
       <a name="label" val="Tmp_W"/>
     </comp>
-    <comp lib="12" loc="(400,520)" name="Register_8_252a90b2">
+    <comp lib="13" loc="(400,520)" name="Register_8_252a90b2">
       <a name="label" val="Reg_B"/>
     </comp>
-    <comp lib="12" loc="(400,590)" name="Register_8_252a90b2">
+    <comp lib="13" loc="(400,590)" name="Register_8_252a90b2">
       <a name="label" val="Reg_D"/>
     </comp>
-    <comp lib="12" loc="(400,660)" name="Register_8_252a90b2">
+    <comp lib="13" loc="(400,660)" name="Register_8_252a90b2">
       <a name="label" val="Reg_H"/>
     </comp>
-    <comp lib="12" loc="(520,450)" name="Register_8_252a90b2">
+    <comp lib="13" loc="(520,450)" name="Register_8_252a90b2">
       <a name="label" val="Tmp_Z"/>
     </comp>
-    <comp lib="12" loc="(520,520)" name="Register_8_252a90b2">
+    <comp lib="13" loc="(520,520)" name="Register_8_252a90b2">
       <a name="label" val="Reg_C"/>
     </comp>
-    <comp lib="12" loc="(520,590)" name="Register_8_252a90b2">
+    <comp lib="13" loc="(520,590)" name="Register_8_252a90b2">
       <a name="label" val="Reg_E"/>
     </comp>
-    <comp lib="12" loc="(520,660)" name="Register_8_252a90b2">
+    <comp lib="13" loc="(520,660)" name="Register_8_252a90b2">
       <a name="label" val="Reg_L"/>
     </comp>
-    <comp lib="12" loc="(670,460)" name="Register_16_2fb72861"/>
-    <comp lib="12" loc="(670,520)" name="Register_16_2fb72861"/>
-    <comp lib="16" loc="(210,580)" name="L_8_1_Demux_16_5be8a8cb">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="16" loc="(420,80)" name="L_8_1_Demux_8_58d4daa4">
+    <comp lib="13" loc="(670,460)" name="Register_16_2fb72861"/>
+    <comp lib="13" loc="(670,520)" name="Register_16_2fb72861"/>
+    <comp lib="16" loc="(760,260)" name="Error_Detector_16_c93c636a">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="16" loc="(70,580)" name="L_8_1_Demux_8_58d4daa4">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="6" loc="(188,21)" name="Text">
+    <comp lib="17" loc="(670,670)" name="Inc_dec_16_1df549c4"/>
+    <comp lib="17" loc="(730,750)" name="Inc_dec_8_1e64ec11"/>
+    <comp lib="6" loc="(185,20)" name="Text">
       <a name="text" val="Pairs can only map to other 16 bit pairs/registers"/>
     </comp>
-    <comp lib="7" loc="(570,270)" name="Z_Detector_1_be9a67f0">
+    <comp lib="6" loc="(585,230)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="Moves read to write if not incrementing/decrementing"/>
+    </comp>
+    <comp lib="7" loc="(200,180)" name="Mux_16">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="7" loc="(510,80)" name="Mux_8">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="7" loc="(70,180)" name="Mux_8">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="9" loc="(570,270)" name="Z_Detector_1_be9a67f0">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="7" loc="(750,280)" name="Z_Detector_16_47ed8cfc">
+    <comp lib="9" loc="(750,280)" name="Z_Detector_16_47ed8cfc">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(760,280)" name="Z_Detector_16_47ed8cfc">
+    <comp lib="9" loc="(760,280)" name="Z_Detector_16_47ed8cfc">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(770,280)" name="Z_Detector_16_47ed8cfc">
+    <comp lib="9" loc="(770,280)" name="Z_Detector_16_47ed8cfc">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(780,280)" name="Z_Detector_8_e7b9c500">
+    <comp lib="9" loc="(780,280)" name="Z_Detector_8_e7b9c500">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(780,640)" name="Z_Detector_1_be9a67f0">
+    <comp lib="9" loc="(780,640)" name="Z_Detector_1_be9a67f0">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="7" loc="(790,280)" name="Z_Detector_8_e7b9c500">
+    <comp lib="9" loc="(790,280)" name="Z_Detector_8_e7b9c500">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(800,280)" name="Z_Detector_8_e7b9c500">
+    <comp lib="9" loc="(800,280)" name="Z_Detector_8_e7b9c500">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(810,280)" name="Z_Detector_8_e7b9c500">
+    <comp lib="9" loc="(810,280)" name="Z_Detector_8_e7b9c500">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(830,280)" name="Z_Detector_8_e7b9c500">
+    <comp lib="9" loc="(830,280)" name="Z_Detector_8_e7b9c500">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(840,280)" name="Z_Detector_8_e7b9c500">
+    <comp lib="9" loc="(840,280)" name="Z_Detector_8_e7b9c500">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(850,280)" name="Z_Detector_8_e7b9c500">
+    <comp lib="9" loc="(850,280)" name="Z_Detector_8_e7b9c500">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(860,280)" name="Z_Detector_8_e7b9c500">
+    <comp lib="9" loc="(860,280)" name="Z_Detector_8_e7b9c500">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="8" loc="(760,260)" name="Error_Detector_16_c93c636a">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="9" loc="(670,670)" name="Inc_dec_16_1df549c4"/>
-    <comp lib="9" loc="(730,750)" name="Inc_dec_8_1e64ec11"/>
     <wire from="(100,220)" to="(100,270)"/>
     <wire from="(100,500)" to="(100,520)"/>
     <wire from="(100,530)" to="(100,540)"/>
@@ -1601,7 +1612,7 @@
     <wire from="(60,500)" to="(60,540)"/>
     <wire from="(60,800)" to="(140,800)"/>
     <wire from="(640,270)" to="(640,280)"/>
-    <wire from="(640,300)" to="(640,320)"/>
+    <wire from="(640,300)" to="(640,310)"/>
     <wire from="(640,460)" to="(660,460)"/>
     <wire from="(640,480)" to="(650,480)"/>
     <wire from="(640,520)" to="(660,520)"/>
@@ -1618,7 +1629,8 @@
     <wire from="(690,450)" to="(700,450)"/>
     <wire from="(690,510)" to="(700,510)"/>
     <wire from="(690,650)" to="(700,650)"/>
-    <wire from="(70,140)" to="(70,160)"/>
+    <wire from="(70,140)" to="(70,150)"/>
+    <wire from="(70,150)" to="(70,160)"/>
     <wire from="(70,220)" to="(70,240)"/>
     <wire from="(70,470)" to="(70,540)"/>
     <wire from="(70,600)" to="(70,630)"/>
@@ -1635,7 +1647,7 @@
     <wire from="(720,680)" to="(750,680)"/>
     <wire from="(730,310)" to="(730,340)"/>
     <wire from="(730,310)" to="(770,310)"/>
-    <wire from="(730,770)" to="(730,780)"/>
+    <wire from="(730,810)" to="(730,820)"/>
     <wire from="(740,690)" to="(740,710)"/>
     <wire from="(740,690)" to="(750,690)"/>
     <wire from="(740,760)" to="(760,760)"/>
