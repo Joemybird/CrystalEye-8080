@@ -104,6 +104,7 @@
     <comp lib="0" loc="(190,220)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
+      <a name="tristate" val="true"/>
     </comp>
     <comp loc="(190,170)" name="Pull_Circuit_c97a2554">
       <a name="facing" val="north"/>
@@ -119,6 +120,7 @@
     <a name="appearance" val="custom"/>
     <a name="circuit" val="Z_Detector_2_fc4efac7"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="simulationFrequency" val="1.0"/>
     <appear>
       <polyline fill="none" points="60,45 70,50 60,55 60,45" stroke="#000000"/>
       <circ-anchor facing="east" x="60" y="50"/>
@@ -132,6 +134,7 @@
     <comp lib="0" loc="(190,220)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
+      <a name="tristate" val="true"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(220,110)" name="Pin">
@@ -167,6 +170,7 @@
     <a name="appearance" val="custom"/>
     <a name="circuit" val="Z_Detector_4_aba5c6b5"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="simulationFrequency" val="1.0"/>
     <appear>
       <polyline fill="none" points="60,45 70,50 60,55 60,45" stroke="#000000"/>
       <circ-anchor facing="east" x="60" y="50"/>
@@ -198,6 +202,7 @@
     <comp lib="0" loc="(190,250)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
+      <a name="tristate" val="true"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(190,90)" name="Pin">
@@ -256,6 +261,7 @@
     <a name="appearance" val="custom"/>
     <a name="circuit" val="Z_Detector_8_e7b9c500"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="simulationFrequency" val="1.0"/>
     <appear>
       <polyline fill="none" points="60,45 70,50 60,55 60,45" stroke="#000000"/>
       <circ-anchor facing="east" x="60" y="50"/>
@@ -279,6 +285,7 @@
     <comp lib="0" loc="(230,250)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
+      <a name="tristate" val="true"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(230,250)" name="Splitter">
@@ -415,6 +422,7 @@
     <a name="appearance" val="custom"/>
     <a name="circuit" val="Z_Detector_16_47ed8cfc"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="simulationFrequency" val="1.0"/>
     <appear>
       <polyline fill="none" points="60,45 70,50 60,55 60,45" stroke="#000000"/>
       <circ-anchor facing="east" x="60" y="50"/>
@@ -471,6 +479,7 @@
     <comp lib="0" loc="(370,270)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
+      <a name="tristate" val="true"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(370,270)" name="Splitter">
@@ -706,6 +715,7 @@
     <a name="appearance" val="custom"/>
     <a name="circuit" val="Pull_Circuit_c97a2554"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="simulationFrequency" val="1.0"/>
     <appear>
       <path d="M66,50 Q70,60 74,50" fill="none" stroke="#808080" stroke-width="2"/>
       <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="40" x="50" y="50"/>
